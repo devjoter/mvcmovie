@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\Marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\Marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\Marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\Marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\Marcin\\OneDrive\\Desktop\\WSB\\FrameworkiKozlowski\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,30 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
