@@ -21,7 +21,7 @@ namespace MvcMovie.Controllers
 
         // GET: Movies
         public async Task<IActionResult> Index(string searchString)
-{
+        {
             if (_context.Movie == null)
             {
                 return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
@@ -36,6 +36,12 @@ namespace MvcMovie.Controllers
             }
 
             return View(await movies.ToListAsync());
+        }
+
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
         }
         // public async Task<IActionResult> Index()
         // {
