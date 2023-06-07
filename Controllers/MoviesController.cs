@@ -19,7 +19,7 @@ namespace MvcMovie.Controllers
             _context = context;
         }
 
-        // GET: Movies
+
         // GET: Movies
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
@@ -83,6 +83,7 @@ namespace MvcMovie.Controllers
         //                   Problem("Entity set 'MvcMovieContext.Movie'  is null.");
         // }
 
+        
         // GET: Movies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
